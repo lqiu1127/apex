@@ -10,7 +10,7 @@
 
     $agent_result = find_agent_by_id($_GET['id']);
     $agent = db_fetch_assoc($agent_result);
-    $sender_result = find_agent_by_id(6);
+    $sender_result = find_agent_by_id(1);
     $sender = db_fetch_assoc($sender_result);
     $encrypted_text = pkey_encrypt($_POST['plain_text'], $agent[
       'public_key'

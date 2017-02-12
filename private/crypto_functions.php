@@ -73,22 +73,18 @@ function pkey_encrypt($string, $public_key) {
   openssl_public_encrypt($string, $encrypted, $public_key);
   return base64_encode($encrypted);
 }
-
 function pkey_decrypt($string, $private_key) {
   openssl_private_decrypt(base64_decode($string), $decrypted, $private_key);
   return $decrypted;
 }
-
-
 // Digital signatures using public/private keys
-
 function create_signature($data, $private_key) {
   openssl_sign($data, $raw_signature, $private_key);
-  $sig = base64_encode($raw_signature);
-  return $sig;
+  $signature = base64_encode($raw_signature);
+  return $signature;
 }
-
 function verify_signature($data, $signature, $public_key) {
+  // Vigenère
   $result = openssl_verify($data, base64_decode($signature), $public_key);
   return $result;
 }
