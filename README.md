@@ -30,6 +30,7 @@ The following **required** functionality is completed:
   * [x]  Required: Decrypt the message: Cannot access APEX from this location. Send new agent codename and public key so I can contact. Encrypt response to protect codename. Include signature to verify identity and message integrity. -- sydneybristow
   * [x]  Required: Verify the message: Verified
   * [x]  Required: Include a response message in this README
+
 Message:
 IWdAgMk3+Q+7/r0VosNHti5j/g7StfgefrBwlU/4u46Rili6VX2Knw/sNzjflfbYWElFN43jOB9vCxK2MgcMHDK3dGQWZX+ITOpbVdcsaT8PuJ+4Xyo5LOxKRC6ADXC3rmRRIb7SJfWPWaqAdhaXPZy0RzldzjtXO6FLCeBSL/9fQ/bxHITTzbpbj4cwqpKQWLA4E6rOxiILjAQJ1+BVSVmIeeodXLfwFvUzo+QOhZFAwIBwVm94g+PYQ4S5wUQBlJiXjblkA52z1nSbjOdwLnW1L5azz+UrZlFe59FVV1LhsZqVVTeJCXgD3nSRN1MkSVHNLpXM8bkk1HhAQBa2BA==
 
