@@ -46,7 +46,9 @@ UH0uqWDUGjWVwPlA4nbqZGDX0gZFwhI2pqbM8k/niLdgO+rZz3Bh/JSC0Jbs/pF3+OsFEGt1y5j+rEPu
 
 8\. Identify the Double Agent
   * [x]  Required: Decrypt as many email messages as possible
-  * [x]  Required: Identify the double agent: ____________________
+  * [x]  Required: Identify the double agent: natasha
+  
+Since Austin's signature is false. It is not written by him, instead is it written by natasha, whose signature is valid in the next message.
   
 The following objectives are **optional**:
 
